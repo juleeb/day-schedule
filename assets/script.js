@@ -33,7 +33,7 @@ setInterval(time, 1000);
 
 $("#clear").click(function() {
     localStorage.clear();
-    document.querySelectorAll(".description").value = "";
+    $("textarea").empty();  
 });
 
 });

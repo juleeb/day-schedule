@@ -69,5 +69,13 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
-
+#clear {
+  background-color: #06AED5;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  outline: none;
+  color: white;
+}
 
