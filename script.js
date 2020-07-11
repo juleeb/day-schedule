@@ -31,75 +31,9 @@ $(".container").on("click", ".saveBtn", function(){
 generateBlocks()
 setInterval(time, 1000);
 
-
-// var inputTxt2 = document.querySelector('#schedule2');
-// inputTxt2.value = localStorage.getItem('content2');
-// $('#save2').on('click', update);
-// function update() {
-//     localStorage.setItem('content2', inputTxt2.value);
-// };
-
-// var inputTxt3 = document.querySelector('#schedule3');
-// inputTxt3.value = localStorage.getItem('content3');
-// $('#save3').on('click', update);
-// function update() {
-//     localStorage.setItem('content3', inputTxt3.value);
-// };
-
-// var inputTxt4 = document.querySelector('#schedule4');
-// inputTxt4.value = localStorage.getItem('content4');
-// $('#save4').on('click', update);
-// function update() {
-//     localStorage.setItem('content4', inputTxt4.value);
-// };
-
-// var inputTxt5 = document.querySelector('#schedule5');
-// inputTxt5.value = localStorage.getItem('content5');
-// $('#save5').on('click', update);
-// function update() {
-//     localStorage.setItem('content5', inputTxt5.value);
-// };
-
-// //does not store at all
-// var inputTxt6 = document.querySelector('#schedule6');
-// inputTxt6.value = localStorage.getItem('content6');
-// $('#save6').on('click', update);
-// function update() {
-//     localStorage.setItem('content6', inputTxt6.value);
-// };
-
-// var inputTxt7 = document.querySelector('#schedule7');
-// inputTxt7.value = localStorage.getItem('content7');
-// $('#save7').on('click', update);
-// function update() {
-//     localStorage.setItem('content7', inputTxt7.value);
-// };
-
-// var inputTxt8 = document.querySelector('#schedule8');
-// inputTxt8.value = localStorage.getItem('content8');
-// $('#save8').on('click', update);
-// function update() {
-//     localStorage.setItem('content8', inputTxt8.value);
-// };
-
-// //when it refresh does not store/show on browser
-// var inputTxt9 = document.querySelector('#schedule9');
-// inputTxt6.value = localStorage.getItem('content9');
-// $('#save9').on('click', update);
-// function update() {
-//     localStorage.setItem('content9', inputTxt9.value);
-// };
-
-
-
-// var currentHour = moment().format('H');
-// console.log(currentHour);
-
-
-
 $("#clear").click(function() {
     localStorage.clear();
-    document.querySelector(".description").value = "";
+    document.querySelectorAll(".description").value = "";
 });
 
 });
